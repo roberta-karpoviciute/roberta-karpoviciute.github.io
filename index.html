@@ -72,6 +72,56 @@
             </div>
         </div>
     </section>
+
+    <section id="get-in-touch">
+        <div class="container">
+            <form action="/contact" method="get">
+            <div>
+                <label>
+                <input id="name" name="Vardas" placeholder="Your name">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Your budget:
+                <input type="number" name="Biudzetas">
+
+            <div>
+                <label>
+                    Select project type:
+                <select name="type"> 
+                    <option value="1"> HTML </option>
+                    <option value="2"> HTML+CSS </option>
+                    <option value="3"> Full app </option>
+                </select>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Enter a description:
+                <textarea rows="5" cols="20" name="description"> </textarea>
+                </label>
+                <div>
+                    <input type="file" name="attach file">  
+                </div>
+
+                <div>
+                    Do you need a design?
+                    <label>
+                        Yes
+                        <input name="design-needed" type="radio" value="1">
+                    <label>
+                        No
+                        <input name="design-needed" type="radio" value="2"> 
+                    </label>
+                   <div>
+                        <input type="submit" value="Send">
+                   </div>
+            </div>
+            </form>
+        </div>
+    </section>
 </body>
 
 </html>
